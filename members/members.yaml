@@ -1,0 +1,30 @@
+# Cloud Native Karachi members. See ../governance/membership.md before editing.
+# Entries are added by pull request after a membership request has been reviewed.
+#
+# Never add a phone number, email address, Slack handle or WhatsApp name. Those
+# are verification details and they stay in the request issue.
+#
+# `name`, `linkedin` and `org` are optional. A handle-only listing is fully
+# supported.
+
+# Membership phase. See ../governance/membership.md#founding-phase.
+# Flip to `steady` when events_held reaches 3 AND there are 10 members.
+phase: founding
+
+# Total events held, all time. Bumped by the pull request closing each retro.
+events_held: 0
+
+# Schema reference. Copy it, do not edit it.
+#
+# members:
+#   - name: ABC BIN XYZ
+#     github: abcbinxyz
+#     linkedin: https://www.linkedin.com/in/abcbinxyz
+#     org: Example Ltd
+#     sigs: [sig-platform]
+#     sponsors: [amaanx86]
+#     since: 2026-09-15
+#     request: https://github.com/cloud-native-karachi/community/issues/12
+#     founding: true
+
+members: []
