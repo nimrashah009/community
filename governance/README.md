@@ -42,7 +42,7 @@ Organizers hold decision authority, Members hold sponsorship authority over new 
 
 **Quorum** is more than half the organizers listed in [organizers.yaml](../members/organizers.yaml). No decision passes on a single vote.
 
-**Recusal** is mandatory: your own nomination or renewal, any Code of Conduct matter involving you or someone close to you, anything involving your employer's money. Recusal is recorded and quorum is calculated on the non-recused.
+**Recusal** is mandatory: your own nomination or removal, any Code of Conduct matter involving you or someone close to you, anything involving your employer's money. Recusal is recorded and quorum is calculated on the non-recused.
 
 **Deadlock** resolves to the status quo. A tie goes to a 7-day Member comment period, then one re-vote. Still tied, it fails.
 
