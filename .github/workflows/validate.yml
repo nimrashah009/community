@@ -36,7 +36,7 @@ jobs:
       # A malformed issue form fails silently on GitHub: the template just stops
       # appearing in the chooser, with no error anywhere. Catching it here is
       # cheaper than someone reporting that they cannot find the membership form.
-      - name: Parse every workflow and issue template
+      - name: Parse every workflow, issue template and label file
         run: |
           python3 - <<'PY'
           import pathlib
@@ -45,7 +45,7 @@ jobs:
           import yaml
 
           failed = False
-          roots = [".github/ISSUE_TEMPLATE", ".github/workflows"]
+          roots = [".github", ".github/ISSUE_TEMPLATE", ".github/workflows"]
           for root in roots:
               for path in sorted(pathlib.Path(root).glob("*.y*ml")):
                   try:
