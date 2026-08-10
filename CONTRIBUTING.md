@@ -66,6 +66,14 @@ Prose: plain English, active voice, name the agent, be concrete, give a number r
 
 Counts and dates stay in the register. Write "the organizers listed in [organizers.yaml](members/organizers.yaml)" rather than "three organizers", and leave registration numbers on the group page. A headcount written into prose is wrong the day someone joins, and nobody thinks to grep for it.
 
+## Labels
+
+Nine, each with what it means in [.github/labels.yml](.github/labels.yml). The issue forms apply four of them for you; organizers add the rest.
+
+The one that concerns you is `needs-info`. It means the request is waiting on you rather than on a reviewer, and the comment says what would close it. It is not a rejection.
+
+Organizers keep the set in step with `mise run labels -- --apply`. A new label starts as a change to that file, because a label created in the web UI carries no explanation of when to use it.
+
 ## Reviewing
 
 Reviewing a request that is short of the bar, name the missing requirement and what would close it. "Not yet, one more non-repository contribution" is useful. "No" costs the group a contributor.

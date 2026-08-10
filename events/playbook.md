@@ -19,7 +19,7 @@ One of ours: **record actual attendance at the door**, not RSVPs. Membership uni
 
 Six weeks is comfortable, four is possible. Under three the room will be half empty however good the talks are.
 
-**T-6 weeks.** Lock date and venue. Open the event on the group page even with speakers to be announced; the registration count is what you show venues and sponsors. Open a planning issue, name yourself owner, paste this checklist in.
+**T-6 weeks.** Lock date and venue. Open the event on the group page even with speakers to be announced; the registration count is what you show venues and sponsors. Open a planning issue labelled `event`, name yourself owner, paste this checklist in.
 
 **T-5 weeks.** Confirm speakers. Two talks of 25 to 30 minutes plus one 10-minute lightning talk fits a 3-hour slot and leaves time for people to talk to each other. Get titles, abstracts, bios and headshots now; chasing them at T-1 is how announcements slip.
 
@@ -31,7 +31,7 @@ Six weeks is comfortable, four is possible. Under three the room will be half em
 
 **Event day.** Arrive 60 minutes early, test AV with an actual laptop, open check-in 30 minutes before the start. Assume a late start and order the running so the first talk is not the one that suffers. Record attendance, photograph the room wide, record talks if you can. Thank the venue and sponsor from the front. Leave the venue better than you found it.
 
-**T+3 days.** Open the retro, publish slides and recordings, thank speakers and volunteers by name, and open the pull request incrementing `events_held` in [members.yaml](../members/members.yaml).
+**T+3 days.** Open the retro, labelled `event` so it stays findable when someone cites it for a contribution unit, publish slides and recordings, thank speakers and volunteers by name, and open the pull request incrementing `events_held` in [members.yaml](../members/members.yaml).
 
 ## The retro issue
 
