@@ -79,3 +79,11 @@ Warnings are decisions for a human, so they print rather than block. Ignoring th
 ## Adding yourself
 
 Not by pull request as a first step. Open a [membership request](https://github.com/cloud-native-karachi/community/issues/new?template=membership-request.yml) so evidence and sponsorships are reviewed first. Full sequence: [../governance/membership.md](../governance/membership.md#how-to-apply).
+
+## Changing your own entry
+
+Once you are listed, a stale `github`, `linkedin`, `org` or `sigs` value is a pull request against your own line, not a new request issue. There is no evidence and no sponsorship to review, so an issue would add a round trip and decide nothing. Say in the description which field changed and why. An organizer adds `register-update` and merges on one approval, the same threshold as a typo. The same path covers an entry in [emeritus.yaml](emeritus.yaml), where nobody is watching the handle at all.
+
+A changed GitHub handle is the urgent one. GitHub releases your old handle the moment you rename it, and anyone may then claim it. Until the register catches up it points at an account you no longer control, and once someone else takes that name the register lists a stranger as a Member or an organizer. Open the pull request the day you rename, and expect a reviewer to treat it ahead of the queue.
+
+Reviewing a handle change, do not merge on the pull request author alone; anyone can open a pull request claiming a rename happened. GitHub attributes past activity by account rather than by name, so the issue in the entry's `request` field, and any other issue or pull request that person has opened here, already shows the new handle. That match is the check. Where there is no such issue, which is the case for the founding organizers whose nomination sits in [cncf/communitygroups#761](https://github.com/cncf/communitygroups/issues/761), confirm over CNCF Slack or against the `openprofile` URL already in the entry.

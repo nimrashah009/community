@@ -14,6 +14,7 @@ Most things start as an issue, because evidence and sponsorships get reviewed be
 | Speaking at a meetup | A [talk proposal](https://github.com/cloud-native-karachi/community/issues/new?template=talk-proposal.yml) |
 | Starting a SIG | A [SIG proposal](https://github.com/cloud-native-karachi/community/issues/new?template=sig-proposal.yml) |
 | Becoming an organizer | Talk to an organizer. See [governance/organizers.md](governance/organizers.md) |
+| Your handle, LinkedIn or employer changed | Straight to a pull request. See [members/README.md](members/README.md#changing-your-own-entry) |
 | Typo, dead link, unclear sentence | Straight to a pull request |
 | Changing a rule | A pull request against `governance/`, with the rationale |
 
@@ -68,7 +69,7 @@ Counts and dates stay in the register. Write "the organizers listed in [organize
 
 ## Labels
 
-Nine, each with what it means in [.github/labels.yml](.github/labels.yml). The issue forms apply four of them for you; organizers add the rest.
+Ten, each with what it means in [.github/labels.yml](.github/labels.yml). The issue forms apply four of them for you; organizers add the rest.
 
 The one that concerns you is `needs-info`. It means the request is waiting on you rather than on a reviewer, and the comment says what would close it. It is not a rejection.
 
