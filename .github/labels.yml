@@ -31,6 +31,10 @@ labels:
     color: 1d76db
     description: New SIG, or a lifecycle change to one. Applied by the issue form.
 
+  - name: register-update
+    color: c2e0c6
+    description: Corrects an existing entry in members/. A changed handle is urgent; see members/README.md#changing-your-own-entry.
+
   - name: event
     color: fbca04
     description: Meetup planning issue or retro. Retros are the evidence source for contribution units.
