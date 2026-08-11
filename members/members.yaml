@@ -31,7 +31,11 @@ members:
   - name: Sufiyan Khan
     github: SufiyanKhanCloud
     linkedin: https://www.linkedin.com/in/sufiyan-khan-cloud
-    org: UBIT, University of Karachi
+    org: Teknoloje Solutions, UBIT-University of Karachi
+    sigs: []
+    sponsors: [amaanx86]
+    since: 2026-08-11
     request: https://github.com/cloud-native-karachi/community/issues/7
-    founding: true
-    
+    founding: false
+
+
