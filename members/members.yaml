@@ -27,4 +27,11 @@ events_held: 0
 #     request: https://github.com/cloud-native-karachi/community/issues/12
 #     founding: true
 
-members: []
+members:
+  - name: Sufiyan Khan
+    github: SufiyanKhanCloud
+    linkedin: https://www.linkedin.com/in/sufiyan-khan-cloud
+    org: UBIT, University of Karachi
+    request: https://github.com/cloud-native-karachi/community/issues/7
+    founding: true
+    
