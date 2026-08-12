@@ -28,6 +28,16 @@ events_held: 0
 #     founding: true
 
 members:
+  - name: Nimra Shah
+    github: nimrashah009
+    linkedin: www.linkedin.com/in/nimrashahsocialmediamanager
+    org: Social Nudge
+    sigs: []
+    sponsors: [amaanx86,ameerhamza-io]
+    since: 2026-07-28
+    request: https://github.com/cloud-native-karachi/community/issues/10
+    founding: true
+    
   - name: Saba Ramzan
     github: sabaramzan123
     linkedin: https://www.linkedin.com/in/saba-ramzan-94b7742b8/
